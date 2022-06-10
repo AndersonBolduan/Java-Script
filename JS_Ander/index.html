@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap">
+    <title>Verificação de Idade</title>
+</head>
+<body>
+    <section class="container">
+        <div class="input">
+            <form action="#">
+                <p>Informe seu nome e sua idade: </p><br>
+                <h3>Nome: <br>
+                    <input type="text" name="nome" id="name"  placeholder="Nome">
+                    <span class="error"></span>
+                </h3> <br>
+                <h3 class="h3">
+                    Informe a sua idade: <br>
+                    <input type="text" name="day" id="day" placeholder="Dia"><br>
+                    <input type="text" name="month" id="month" placeholder="Mês"><br>
+                    <input type="text" name="year" id="year" placeholder="Ano">
+                </h3>
+            </form> 
+            <center><button id="butonn" onclick="ageCheck()" class="btn">Enviar</button></center>
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
